@@ -1,0 +1,7 @@
+htop:
+  environment:
+  - T*
+  build: ./htop
+  pid: host
+  labels:
+    io.docker.compose.config-hash.ignore: command
